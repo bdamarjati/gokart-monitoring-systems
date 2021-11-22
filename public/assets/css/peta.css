@@ -1,0 +1,29 @@
+body {
+    background: #42b983;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.map {
+    width: 1024px;
+    height: 480px;
+}
